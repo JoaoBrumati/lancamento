@@ -1,0 +1,153 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:#05010d;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  position:relative;
+}
+
+/* Fundo glow */
+body::before,
+body::after{
+  content:'';
+  position:absolute;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  background:rgba(162, 89, 255, 0.25);
+  filter:blur(120px);
+  z-index:0;
+}
+
+body::before{
+  top:-150px;
+  right:-100px;
+}
+
+body::after{
+  bottom:-150px;
+  left:-100px;
+}
+
+.container{
+  width:90%;
+  max-width:1100px;
+  text-align:center;
+  position:relative;
+  z-index:2;
+}
+
+.tag{
+  display:inline-block;
+  padding:10px 25px;
+  border:1px solid rgba(255,255,255,0.15);
+  border-radius:40px;
+  color:#c8a7ff;
+  letter-spacing:3px;
+  font-size:14px;
+  margin-bottom:30px;
+  backdrop-filter:blur(10px);
+  background:rgba(255,255,255,0.04);
+}
+
+h1{
+  font-size:clamp(3rem, 7vw, 6rem);
+  line-height:1;
+  font-weight:800;
+  margin-bottom:25px;
+}
+
+h1 span{
+  background:linear-gradient(90deg,#ffffff,#a259ff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.subtitle{
+  max-width:700px;
+  margin:0 auto 50px;
+  color:#cfcfcf;
+  font-size:1.1rem;
+  line-height:1.8;
+}
+
+.launch-date{
+  margin-bottom:40px;
+  font-size:1rem;
+  letter-spacing:3px;
+  color:#b388ff;
+}
+
+.countdown{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.time-box{
+  width:180px;
+  height:180px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:30px;
+  backdrop-filter:blur(12px);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  transition:0.3s;
+  box-shadow:0 0 30px rgba(162,89,255,0.12);
+}
+
+.time-box:hover{
+  transform:translateY(-8px);
+  border-color:#a259ff;
+  box-shadow:0 0 40px rgba(162,89,255,0.4);
+}
+
+.time-box h2{
+  font-size:4rem;
+  font-weight:700;
+}
+
+.time-box p{
+  margin-top:10px;
+  color:#d0b6ff;
+  letter-spacing:2px;
+  font-size:0.9rem;
+}
+
+.footer-text{
+  margin-top:60px;
+  color:#9f9f9f;
+  letter-spacing:4px;
+  font-size:0.9rem;
+}
+
+@media(max-width:768px){
+
+  .countdown{
+    gap:15px;
+  }
+
+  .time-box{
+    width:140px;
+    height:140px;
+  }
+
+  .time-box h2{
+    font-size:3rem;
+  }
+
+}
