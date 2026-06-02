@@ -1,4 +1,4 @@
-const launchDate = new Date("June 1, 2026 00:00:00").getTime();
+const launchDate = new Date("June 15, 2026 00:00:00").getTime();
 
 const countdown = setInterval(() => {
 
