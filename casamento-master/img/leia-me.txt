@@ -1,0 +1,54 @@
+════════════════════════════════════════════════════════════
+PASTA img/ — Coloque aqui todas as fotos do site
+════════════════════════════════════════════════════════════
+
+Esta pasta está vazia de propósito. Basta adicionar os arquivos
+com EXATAMENTE estes nomes (o código já está apontando para eles):
+
+── FOTOS GERAIS ──
+home_fundo.jpeg        → foto de fundo da seção inicial (Hero)
+mansao_moriah.png      → foto da fachada do local da festa
+
+── PRESENTES (fotos de cada item da lista) ──
+remedio.png
+buque.jpg
+selfie.svg
+danca.png
+evidencias.png
+chocolate.png
+karaoke.png
+cerveja.png
+abraco.png
+lanche.png
+cobertor.png
+repelente.svg
+aluguel.png
+gato.png
+
+── QR CODES PIX (um por faixa de preço) ──
+qr_10.png
+qr_20.png
+qr_50.jpg
+qr_60.png
+qr_70.png
+qr_80.png
+qr_90.png
+qr_100.png
+qr_110.png
+qr_120.png
+qr_150.png
+qr_200.png
+qr_250.png
+qr_qualquer.png
+qr_code.svg          → imagem padrão, caso algum presente fique sem QR Code definido
+
+── OPCIONAL (depois de publicar o site) ──
+og-image.jpg          → imagem que aparece ao compartilhar o link do site
+                         no WhatsApp/redes sociais (referenciada por URL
+                         completa no <head> do index.html, ajuste o domínio
+                         em "SITE_URL" e na tag og:image quando publicar)
+
+Dica: os formatos (.png/.jpg/.svg) já estão definidos no código.
+Se quiser trocar o formato de alguma imagem, lembre de também
+atualizar a extensão em js/gifts-data.js (para presentes) ou em
+index.html/style.css (para as demais).
