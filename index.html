@@ -29,27 +29,19 @@
 <body>
 
   <!-- ── NAVEGAÇÃO ── -->
-  <div class="nav-overlay" id="nav-overlay"></div>
-
   <nav id="navbar">
-    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <div class="nav-inner">
+      <div class="nav-menu" id="nav-menu" role="navigation" aria-label="Menu principal">
+        <a href="#inicio" class="nav-link active">Home</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#" id="presentes-link" class="nav-link">Presentes</a>
+        <a href="#" id="presenca-link" class="nav-link">Presença</a>
+        <a href="#" id="recados-link" class="nav-link">Recados</a>
+        <a href="#localizacao" class="nav-link">Localização</a>
+        <a href="#informacoes" class="nav-link">Informações</a>
+      </div>
+    </div>
   </nav>
-
-  <div class="nav-menu" id="nav-menu" role="navigation" aria-label="Menu principal">
-    <span class="nav-menu-header">João Paulo &amp; Nathaly Silva</span>
-    <a href="#inicio" class="nav-link active">Home</a>
-    <a href="#sobre" class="nav-link">Sobre</a>
-    <a href="#" id="presentes-link" class="nav-link">Lista de Presentes</a>
-    <a href="#localizacao" class="nav-link">Localização</a>
-    <a href="#" id="presenca-link" class="nav-link">Confirmação de Presença</a>
-    <a href="#" id="recados-link" class="nav-link">Mural de Recados</a>
-    <a href="#informacoes" class="nav-link">Informações</a>
-    <span class="nav-menu-footer">15 · 08 · 2026</span>
-  </div>
 
   <!-- ── HERO ── -->
   <section id="inicio">
@@ -185,12 +177,42 @@
     <div class="section-inner">
       <p class="section-label">Surpreenda-nos</p>
       <h2 class="section-title">Lista de Presentes</h2>
-      <p style="color: var(--muted); font-size: 1.05rem; line-height: 1.7; margin-bottom: 2rem;">
+      <p class="teaser-desc">
         Escolha um presente especial para nos ajudar a começar essa nova fase com ainda mais alegria.
         Toque no botão abaixo para ver nossa lista completa.
       </p>
       <button class="btn-primary" id="abrir-lista-presentes" style="padding: 0.85rem 2.5rem; font-size: 0.8rem;">
         Ver lista completa 🎁
+      </button>
+    </div>
+  </section>
+
+  <!-- ── CONFIRMAÇÃO DE PRESENÇA ── (apenas chamariz) -->
+  <section id="presenca">
+    <div class="section-inner">
+      <p class="section-label">Sua presença é essencial</p>
+      <h2 class="section-title">Confirmação de Presença</h2>
+      <p class="teaser-desc">
+        Contamos com você para celebrar esse momento tão especial ao nosso lado. Confirme sua presença
+        e a de seus acompanhantes até 01/08/2026.
+      </p>
+      <button class="btn-primary" id="abrir-presenca" style="padding: 0.85rem 2.5rem; font-size: 0.8rem;">
+        Confirmar presença 🎉
+      </button>
+    </div>
+  </section>
+
+  <!-- ── MURAL DE RECADOS ── (apenas chamariz) -->
+  <section id="recados">
+    <div class="section-inner">
+      <p class="section-label">Deixe seu carinho</p>
+      <h2 class="section-title">Mural de Recados</h2>
+      <p class="teaser-desc">
+        Deixe uma mensagem carinhosa para João Paulo e Nathaly Silva e veja os recados de outros
+        convidados. Toque no botão abaixo para abrir o mural.
+      </p>
+      <button class="btn-primary" id="abrir-recados" style="padding: 0.85rem 2.5rem; font-size: 0.8rem;">
+        Deixar um recado 💌
       </button>
     </div>
   </section>

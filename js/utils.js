@@ -1,4 +1,3 @@
-
 function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
@@ -40,8 +39,7 @@ function destravarScrollBodySeNadaAberto() {
     typeof pixModalOverlay !== 'undefined' ? pixModalOverlay : null,
     typeof presentesPage !== 'undefined' ? presentesPage : null,
     typeof recadosPage !== 'undefined' ? recadosPage : null,
-    typeof presencaModal !== 'undefined' ? presencaModal : null,
-    typeof navMenu !== 'undefined' ? navMenu : null
+    typeof presencaModal !== 'undefined' ? presencaModal : null
   ];
   const algumAberto = overlays.some(el => el && el.classList.contains('open'));
   document.body.style.overflow = algumAberto ? 'hidden' : '';

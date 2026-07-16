@@ -1,4 +1,3 @@
-
 const recadosPage    = document.getElementById('recados-page');
 const recadosLink    = document.getElementById('recados-link');
 const recadosVoltar  = document.getElementById('recados-voltar');
@@ -60,6 +59,7 @@ function closeRecadosPage() {
 }
 
 recadosLink.addEventListener('click', openRecadosPage);
+document.getElementById('abrir-recados').addEventListener('click', openRecadosPage);
 recadosVoltar.addEventListener('click', closeRecadosPage);
 
 recadosForm.addEventListener('submit', async (e) => {

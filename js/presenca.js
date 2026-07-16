@@ -1,4 +1,3 @@
-
 const presencaLink    = document.getElementById('presenca-link');
 const presencaModal   = document.getElementById('presenca-modal');
 const presencaClose   = document.getElementById('presenca-close');
@@ -31,6 +30,7 @@ function closePresencaModal() {
 }
 
 presencaLink.addEventListener('click', openPresencaModal);
+document.getElementById('abrir-presenca').addEventListener('click', openPresencaModal);
 presencaClose.addEventListener('click', closePresencaModal);
 presencaModal.addEventListener('click', (e) => {
   if (e.target === presencaModal) closePresencaModal();

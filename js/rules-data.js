@@ -46,7 +46,7 @@ const rules = [
     desc: 'Ao anoitecer, a temperatura pode diminuir. Se preferir, leve um casaco leve..'
   },
   {
-    icon: 'v',
+    icon: '✅',
     title: 'Confirme sua presença',
     desc: 'Para celebrarmos esse momento juntos, pedimos que confirme sua presença até 01/08/2026. Sua confirmação é muito importante para prepararmos tudo com carinho.'
   }
