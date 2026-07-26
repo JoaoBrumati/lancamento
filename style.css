@@ -208,6 +208,8 @@ nav.scrolled {
   text-transform: uppercase;
   margin-bottom: 1.0rem;
   animation: fadeUp 1.4s 0.2s ease both;
+  position: relative;
+  top: -15px;
 }
 
 .hero-names {
