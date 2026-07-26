@@ -169,14 +169,14 @@ nav.scrolled {
       rgba(15, 26, 45, 0.18) 45%,
       rgba(15, 26, 45, 0.62) 100%),
     url(./img/home_fundo.jpg) center / cover no-repeat;
-  transform: scale(2.03);
+  transform: scale(1.03);
   animation: zoomOut 7s ease forwards;
 }
 
 /* Desktop: reenquadra a foto para não cortar a cabeça do casal */
 @media (min-width: 701px) {
   .hero-bg {
-    background-position: center 70%;
+    background-position: center 20%;
   }
 }
 

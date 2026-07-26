@@ -1,5 +1,5 @@
 
-const weddingDate = new Date('2026-08-15T16:00:00');
+const weddingDate = new Date('2026-08-16T00:00:00');
 
 function updateCountdown() {
   const now  = new Date();
