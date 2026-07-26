@@ -150,8 +150,8 @@ nav.scrolled {
    HERO
    ════════════════════════════════ */
 #inicio {
-  height: 100vh;
-  height: 100dvh;
+  min-height: 100dvh;
+  overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
