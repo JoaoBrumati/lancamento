@@ -176,7 +176,7 @@ nav.scrolled {
 /* Mobile */
 @media (max-width: 1000px) {
   .hero-bg {
-    background-position: 58% center; /* move um pouco para a direita */
+    background-position: 18% center; /* move um pouco para a direita */
   }
 }
 
