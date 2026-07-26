@@ -174,7 +174,7 @@ nav.scrolled {
 }
 
 /* Desktop: reenquadra a foto para não cortar a cabeça do casal */
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .hero-bg {
     background-position: center 20%;
   }
