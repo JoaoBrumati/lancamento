@@ -256,7 +256,7 @@ nav.scrolled {
   font-weight: 300;
   animation: fadeUp 1.4s 0.8s ease both;
   position: relative;
-  top: -19px;
+  top: -22px;
 }
 
 .scroll-hint {
