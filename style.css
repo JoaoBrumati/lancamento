@@ -173,10 +173,17 @@ nav.scrolled {
   animation: zoomOut 7s ease forwards;
 }
 
-/* Desktop: reenquadra a foto para não cortar a cabeça do casal */
+/* Mobile */
+@media (max-width: 1000px) {
+  .hero-bg {
+    background-position: 58% center; /* move um pouco para a direita */
+  }
+}
+
+/* Desktop */
 @media (min-width: 1001px) {
   .hero-bg {
-    background-position: center 20%;
+    background-position: center 90%;
   }
 }
 
